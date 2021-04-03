@@ -1,0 +1,11 @@
+.error-indicator{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boom{
+    font-size: 2rem;
+    color: var(--success);
+}

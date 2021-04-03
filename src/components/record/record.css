@@ -1,0 +1,10 @@
+li.record{
+    background-color: transparent !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important
+}
+
+.record__item{
+    margin-left: 5px;
+}

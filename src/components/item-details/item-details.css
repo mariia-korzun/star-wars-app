@@ -1,0 +1,22 @@
+.planet-details {
+    background-color: var(--gray-dark);
+    border-radius: 0.5rem;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.planet-details__img-container {
+    width: 33%;
+}
+
+.planet-details__img {
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+
+
+.planet-details__info-list {
+    border: none;
+}
+

@@ -1,0 +1,13 @@
+.header{
+   align-items: center;
+}
+
+.nav__list{
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav__list-item{
+    font-size: 1.2rem;
+    margin-left:20px;
+}
