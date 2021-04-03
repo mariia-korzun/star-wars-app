@@ -12,16 +12,16 @@ export default class ItemDetails extends Component {
 
 
         return (
-            <section className="planet-details d-flex container">
+            <section className="item-details d-flex container">
                 <div className="row mx-0">
-                    <div className="planet-details__img-container col-4 pl-0">
-                        <img className="planet-details__img" src={image} alt="Item"/>
+                    <div className="item-details__img-container col-4 pl-0">
+                        <img className="item-details__img" src={image} alt="Item"/>
                     </div>
-                    <div className="planet-details__info-container col-8 pr-0">
+                    <div className="item-details__info-container col-8 pr-0">
                         <h1>
                             {name}
                         </h1>
-                        <ul className="planet-details__info-list list-group">
+                        <ul className="item-details__info-list list-group">
 
                             {React.Children.map(this.props.children, (child) => {
                                 return React.cloneElement(child, { data })

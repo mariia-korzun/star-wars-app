@@ -81,8 +81,10 @@ export default class App extends Component {
 
                             <Route path="/starships/:id" render={({ match }) => {
                                 const { id } = match.params
-                                return < StarshipDetails itemId={id} />
-                            }} />
+                                return (<div className="container app__section">
+                                    < StarshipDetails itemId={id} />
+                                </div>
+                                ) }} />
 
                             <Route
                                 path="/login"
